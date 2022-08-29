@@ -3,8 +3,8 @@
 
 ## 
 <p float="left">
-<img src="screenshots/S1.png" width="220">
-<img src="screenshots/S2.png" width="220">
+<img src="screenshots/S1.png" width="220"height="300">
+<img src="screenshots/S2.png" width="220" height="300">
 
 <img src="screenshots/S3.png" width="620">
 </p>
