@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard_ui/responsive/responsive_layout.dart';
+
+import 'responsive/desktop_scaffold.dart';
+import 'responsive/mobile_scaffold.dart';
+import 'responsive/tablet_scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +29,10 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(),
+      home: const ResponsiveLayout(
+          mobileScaffold: MobileScaffold(),
+          tabletScaffold: TabletScaffold(),
+          desktopScaffold: DesktopScaffold()),
     );
   }
 }
